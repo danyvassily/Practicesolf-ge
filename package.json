@@ -1,0 +1,13 @@
+{
+  "name": "atelier-piano",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Solfège et piano interactifs en français",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node tests/music.test.js",
+    "check": "node --check dist/music.js && node --check dist/audio.js && node --check dist/app.js"
+  }
+}
